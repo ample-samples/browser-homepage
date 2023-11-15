@@ -1,6 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<img src="https://image.thum.io/get/height/900/https://browser-homepage-ample-samples.vercel.app/" />
+<img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/"
+  style="width: 1200px; 
+height: 900px; 
+overflow: hidden; "
+  />
 
 ## Getting Started
 

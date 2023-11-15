@@ -11,7 +11,10 @@ export default function Home() {
       >
         <div
           className=''
-        ><p>Hello!</p></div>
+        ><h1
+            className='font-bold text-6xl'
+          >Hello!</h1>
+        </div>
       </div>
     </>
   )

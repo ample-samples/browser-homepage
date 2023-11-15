@@ -5,9 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
   width: 1200px; 
   height: 675px; "
 > 
-  <img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/"
-
-  />
+  <img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/" />
 </div>
 
 ## Getting Started

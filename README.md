@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-<div style="overflow: hidden; width: 100%; height: 675px;"> 
+<div style="overflow: hidden; width: 1200px%; height: 675px;"> 
   <img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/" />
 </div>
 

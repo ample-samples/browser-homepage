@@ -2,9 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/"
   style="width: 1200px; 
-height: 675px; 
-overflow: hidden; "
-  />
+  object-fit: cover;
+  height: 675px; 
+  overflow: hidden; "
+/>
 
 ## Getting Started
 

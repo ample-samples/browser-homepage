@@ -27,9 +27,9 @@ export default function Home() {
           </p>
           <Clock className='text-6xl' format={'HH:mm:ss'} ticking={true} />
           <div className={clsx('mt-10 flex space-between gap-x-4 justify-center items-center content-center w-full', quickLinkContainerProps.size)}>
-            <QuickLink className='' href='https://www.github.com' src="/assets/github-mark-white.svg"   size={quickLinkProps.size} />
-            <QuickLink className='' href='https://www.youtube.com' src="/assets/youtube-svgrepo-com.svg" size={quickLinkProps.size} />
-            <QuickLink className='' href='https://www.linkedin.com' src="/assets/iconmonstr-linkedin-3.svg" size={quickLinkProps.size} />
+            <QuickLink href='https://www.github.com' src="/assets/github-mark-white.svg"   size={quickLinkProps.size} />
+            <QuickLink href='https://www.youtube.com' src="/assets/youtube-svgrepo-com.svg" size={quickLinkProps.size} />
+            <QuickLink href='https://www.linkedin.com' src="/assets/iconmonstr-linkedin-3.svg" size={quickLinkProps.size} />
           </div>
         </div>
       </div>

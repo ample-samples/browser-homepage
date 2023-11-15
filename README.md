@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <div
   style=
   "overflow: hidden;
-  width: 1200px; 
+  width: 100%; 
   height: 675px;"
 > 
   <img src="https://image.thum.io/get/https://browser-homepage-ample-samples.vercel.app/" />

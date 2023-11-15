@@ -10,7 +10,7 @@ export function QuickLink(params: Props) {
   return (
     <a href={params.href} >
       <Image
-        className='filter brightness-0 invert'
+        className='filter brightness-0 invert hover:h-10 hover:w-10 transition-all'
           src={params.src}
           alt="GitHub logo"
           width={params.size || 50}

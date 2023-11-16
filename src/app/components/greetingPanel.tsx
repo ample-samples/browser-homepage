@@ -18,7 +18,7 @@ export function GreetingPanel() {
   useState(() => {
     const interval = setInterval(() => {
       setIsOpen((prevState) => !prevState);
-    }, 6000);
+    }, 3000);
 
     return () => clearInterval(interval);
   });

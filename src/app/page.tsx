@@ -23,7 +23,7 @@ export default function Home() {
     }, 6000);
 
     return () => clearInterval(interval);
-  }, [isOpen]);
+  });
 
   return (
     <>

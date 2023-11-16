@@ -8,7 +8,9 @@ export default function Home() {
       <div
         className='bg-palm-trees height-screen bg-no-repeat bg-cover bg-center
         bg-fixed h-screen flex justify-center items-center' >
-        <GreetingPanel />
+        <div>
+          <GreetingPanel />
+        </div>
       </div>
     </>
   )

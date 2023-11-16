@@ -35,7 +35,7 @@ export function GreetingPanel() {
             leaveFrom="opacity-100 translate-x-0"
             leaveTo="opacity-0 translate-x-80"
           >
-            <h1 className='font-bold text-8xl static absolute top-0 left-2 right-0 text-center mx-auto' >
+            <h1 className='font-bold text-7xl static absolute top-0 left-2 right-0 text-center mx-auto' >
               Hello!
             </h1>
           </Transition>
@@ -65,7 +65,7 @@ export function GreetingPanel() {
             leaveTo="opacity-0 translate-x-80"
           >
             <div className=' static absolute top-9 left-2 right-0 text-center mx-auto'>
-              <p className='text-3xl'>
+              <p className='text-4xl'>
                 The time is:
               </p>
             </div>

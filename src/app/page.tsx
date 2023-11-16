@@ -22,13 +22,13 @@ export default function Home() {
       <div
         className='bg-palm-trees height-screen bg-no-repeat bg-cover bg-center
         bg-fixed h-screen flex justify-center items-center' >
-        <div className='bg-gray-600 bg-opacity-20 py-9 px-14 rounded-md text-center' >
-          <Collapsible open={!isOpen} easing="ease-in-out">
+        <div className='bg-gray-600 bg-opacity-20 py-9 px-12 rounded-md text-center' >
+          <Collapsible trigger="" open={!isOpen} easing="ease-in-out">
             <h1 className='font-bold text-8xl' >
               Hello!
             </h1>
           </Collapsible>
-          <Collapsible open={isOpen} easing="ease-in-out">
+          <Collapsible trigger="" open={isOpen} easing="ease-in-out">
             <p className='text-3xl'>
               The time is:
             </p>

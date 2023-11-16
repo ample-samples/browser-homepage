@@ -10,10 +10,10 @@ export function GreetingPanel() {
   }
 
   const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    setIsOpen(!isOpen);
-  }, [])
+  //
+  // useEffect(() => {
+  //   setIsOpen((prevState) => !prevState);
+  // }, [])
 
   useState(() => {
     const interval = setInterval(() => {

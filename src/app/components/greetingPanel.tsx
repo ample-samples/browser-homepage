@@ -24,7 +24,7 @@ export function GreetingPanel() {
 
   return (
     <>
-      <div className='bg-gray-600 bg-opacity-20 py-9 rounded-md text-center h-64 w-[360px] overflow-hidden' >
+      <div className='backdrop-blur-sm shadow-xl bg-gray-600 bg-opacity-20 py-9 rounded-md text-center h-64 w-[360px] overflow-hidden' >
         <div className='h-24 relative grid-rows-3'>
           <Transition
             show={idShow === 0}

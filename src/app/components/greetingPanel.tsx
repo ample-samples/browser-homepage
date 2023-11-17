@@ -35,7 +35,7 @@ export function GreetingPanel() {
             leaveFrom="opacity-100 translate-x-0"
             leaveTo="opacity-0 translate-x-80"
           >
-            <h1 className='font-bold text-7xl static absolute top-0 left-2 right-0 text-center mx-auto' >
+            <h1 className='font-bold text-7xl static absolute top-5 left-2 right-0 text-center mx-auto' >
               Hello!
             </h1>
           </Transition>
@@ -71,7 +71,19 @@ export function GreetingPanel() {
             </div>
           </Transition>
         </div>
+          <Transition
+            show={idShow === 2 || idShow === 1}
+            enter="transition-all duration-700"
+            enterFrom="opacity-0 -translate-x-80"
+            enterTo="opacity-100 translate-x-0"
+            leave="transition-all duration-700"
+            leaveFrom="opacity-100 translate-x-0"
+            leaveTo="opacity-0 translate-x-80"
+          >
+            <div className=' static absolute -top-3 left-2 right-0 text-center mx-auto'>
         <Clock className='text-4xl' format={'HH:mm:ss'} ticking={true} />
+            </div>
+          </Transition>
       </div>
       <div className='relative bottom-28 mt-10 flex space-between gap-x-4 justify-center items-center content-center w-full h-12' >
         <QuickLink href='https://www.github.com' src="/assets/github-mark-white.svg" size={quickLinkProps.size} />
